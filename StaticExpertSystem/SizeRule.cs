@@ -20,7 +20,7 @@ namespace StaticExpertSystem
             switch(m_size)
             {
                 case "Large":
-                    pets = pets.Where(pet => pet == "Dog" || pet == "Parrot").ToArray();
+                    pets = pets.Where(pet => pet == "Dog" || pet == "Parrot" || pet == "Cat").ToArray();
                     break;
                 case "Medium":
                     // They all are suitable
